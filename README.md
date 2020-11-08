@@ -1,8 +1,11 @@
-# Logger
+- [Options](#options)
+- [How To Use](#how-to-use)
 
-Simple logging to use.
+# es-log
 
-Rollover on new day or upon reaching maximum file size.
+**Easy and Simple Logging** to use.
+
+This package provides an easy and simple to use logging to your application.
 
 ## Options
 
@@ -21,7 +24,7 @@ Rollover on new day or upon reaching maximum file size.
 ## How to use
 
 ```javascript
-import log from 'log';
+const log = require('es-log');
 
 log.init({
     path: './logs',

@@ -1,7 +1,7 @@
 {
-  "name": "log",
+  "name": "es-log",
   "version": "1.0.0",
-  "description": "Logging messages to file",
+  "description": "Easy and simple logging messages to file",
   "main": "index.js",
   "dependencies": {
     "install": "^0.13.0",
