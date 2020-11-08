@@ -1,7 +1,7 @@
 {
-  "name": "es-log",
+  "name": "se-log",
   "version": "1.0.0",
-  "description": "Easy and simple logging messages to file",
+  "description": "Simple and Easy Logging messages to file",
   "main": "index.js",
   "dependencies": {
     "install": "^0.13.0",
