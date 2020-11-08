@@ -1,9 +1,9 @@
 - [Options](#options)
 - [How To Use](#how-to-use)
 
-# se-log
+# es-log
 
-**Simple and Easy Logging** to use.
+**Easy and Simple Logging** to use.
 
 This package provides an easy and simple to use logging to your application.
 
@@ -24,7 +24,7 @@ This package provides an easy and simple to use logging to your application.
 ## How to use
 
 ```javascript
-const log = require('se-log');
+const log = require('es-log');
 
 log.init({
     path: './logs',

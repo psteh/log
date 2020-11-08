@@ -1,5 +1,5 @@
 {
-  "name": "se-log",
+  "name": "@psteh/es-log",
   "version": "1.0.0",
   "description": "Simple and Easy Logging messages to file",
   "main": "index.js",
