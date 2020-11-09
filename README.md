@@ -7,6 +7,18 @@
 
 This package provides an easy and simple to use logging to your application.
 
+```javascript
+const log = require('@psteh/es-log');
+ 
+log.init();
+ 
+log.debug('Yep, this line here...');
+log.info('Nothing to see here folks...');
+log.warn('This line looks sus');
+log.error('Line just got serious');
+log.fatal('EMERGENCY MEETING!');
+```
+
 ## Options
 
 | Property            | Type    | Default               | Description                                                  |
@@ -24,8 +36,8 @@ This package provides an easy and simple to use logging to your application.
 ## How to use
 
 ```javascript
-const log = require('es-log');
-
+const log = require('@psteh/es-log');
+ 
 log.init({
     path: './logs',
     filename: 'log.log',
@@ -38,7 +50,7 @@ log.init({
         timezone: 'UTC'
     }
 });
-
+ 
 log.debug('Yep, this line here...');
 log.info('Nothing to see here folks...');
 log.warn('This line looks sus');

@@ -35,6 +35,18 @@ const init = ({
         format = FORMAT,
         timezone = TIMEZONE,
     }
+} = {
+    path: PATH,
+    filename: FILENAME,
+    level: LEVEL,
+    size: SIZE,
+    transactionIdLength: TRANSACTION_ID_LENGTH,
+    logToConsole: LOG_TO_CONSOLE,
+    writeToFile: WRITE_TO_FILE,
+    datetime: {
+        format: FORMAT,
+        timezone: TIMEZONE,
+    }
 }) => {
     PATH = path || PATH;
     FILENAME = filename || FILENAME;
