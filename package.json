@@ -1,6 +1,6 @@
 {
   "name": "@psteh/es-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and Easy Logging messages to file",
   "main": "index.js",
   "dependencies": {
@@ -16,5 +16,18 @@
     "start": "node index.js"
   },
   "author": "psteh",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psteh/log.git"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "logger"
+  ],
+  "bugs": {
+    "url": "https://github.com/psteh/log/issues"
+  },
+  "homepage": "https://github.com/psteh/log#readme"
 }
